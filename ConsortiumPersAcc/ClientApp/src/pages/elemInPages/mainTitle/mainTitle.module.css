@@ -1,0 +1,25 @@
+.MainTitle__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainTitle__h1 {
+    font-size: 5em;
+}
+
+.MainTitle__ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    height: 1em;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.MainTitle__li {
+    margin: 0;
+    padding: 0;
+    height: 1em;
+    display: block;
+}

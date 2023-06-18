@@ -1,0 +1,22 @@
+.laboratorySelection {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(74.85deg, #1F7BCD -73.36%, #FD4D7B 101.98%);
+    color:#fff;
+}
+
+body::-webkit-scrollbar {
+  overflow-y: scroll;
+  background-color: #e95083;
+  width: 1em;
+  height: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 4em;
+  background-color: #f092b1;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 4em;
+  background-color: rgba(255,255,255,0.5);
+}

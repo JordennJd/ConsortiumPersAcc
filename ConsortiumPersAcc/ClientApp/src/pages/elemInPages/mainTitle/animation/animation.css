@@ -1,0 +1,62 @@
+.animation {
+    /*animation: tween 15s ease infinite;*/
+    animation:  animationTitle 15s infinite;
+}
+
+
+
+@keyframes animationTitle {
+    0% {
+        margin-top: -0.5em;
+        opacity: 0;
+    }
+    6% {
+        opacity: 1;
+    }
+    27% {
+        opacity: 1;
+    }
+    32% {
+        opacity: 0;
+        margin-top: -0.5em;
+    }
+    33% {
+        opacity: 0;
+        margin-top: -1.7em;
+    }
+    39% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    65% {
+        opacity: 0;
+        margin-top: -1.7em;
+    }
+    66% {
+        opacity: 0;
+        margin-top: -2.9em;
+    }
+    72% {
+        opacity: 1;
+    }
+    94% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 0;
+        margin-top: -2.9em;
+    }
+    100% {
+        opacity: 0;
+        margin-top: 0;
+    }
+    /*необходимо аккуратно прописать анимацию
+        появление - исчезание - мнгновенное изменение видимого блока
+    0 - появление " идеи"
+    6 - появилась " идеи"
+    27 - начинает уменьшпться " идеи"
+    33 - скрываются " идеи" резкая смена появление " люди"
+    */
+}
