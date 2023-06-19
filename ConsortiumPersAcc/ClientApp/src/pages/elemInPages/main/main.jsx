@@ -1,16 +1,6 @@
 import Laboratory from './laboratory/laboratory';
 import style from './main.module.css';
 import {useEffect,useState} from "react";
-/*
-const laboratoryList = [
-    {id:'1', name:'Лаборатория технологического предпринимательства'},
-    {id:'2', name:'Лаборатория интернета вещей'},
-    {id:'3', name:'Лаборатория робототехники'},
-    {id:'4', name:'Лаборатория беспилотных авиационных систем'},
-    {id:'5', name:'Лаборатория искусственного интеллекта'},
-    {id:'6', name:'Лаборатория кибербезопасности ГУАП-Infowatch'}
-];
-*/
 
 
 const Main = () => {
