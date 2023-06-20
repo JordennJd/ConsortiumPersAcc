@@ -9,10 +9,11 @@ const Sponsors = (props) => {
         const x = radius * Math.cos(angle);
         const y = radius * Math.sin(angle);
     }
+    
     return (
         <div className={style.sponsors} style={props.style}>
             {props.sponsors.map(elem =>
-                <img src={process.env.PUBLIC_URL + '/image/otherImages/SponsorsLogo/' + elem.name+'Logo.svg'} className={style.sponsors__img} />
+                <img src={process.env.PUBLIC_URL + '/image/otherImages/SponsorsLogo/'+elem+'Logo.svg'} className={style.sponsors__img} />
             )}
         </div>
     );

@@ -5,7 +5,7 @@ internal sealed class LaboratoryHandler
 {
     public static void AddLaboratory(Laboratory Laboratory)
     {
-        RequestGenerator.INSERT(GetStringForINSERT(Laboratory), "users(id, name, sponsorsId)");
+        RequestGenerator.INSERT(GetStringForINSERT(Laboratory), "users(id, name, role)");
     }
 
     public static void DeleteLaboratory(Laboratory Laboratory)
@@ -42,23 +42,10 @@ internal sealed class LaboratoryHandler
         List<Laboratory> Laboratories = new List<Laboratory>();
         for (int i = 0; i < LaboratoriesStr.Count; i++)
         {
-            Laboratories.Add(new Laboratory(Convert.ToInt32(LaboratoriesStr[i][0]),LaboratoriesStr[i][1]));
+            Laboratories.Add(new Laboratory(i+1,Convert.ToInt32(LaboratoriesStr[i][0]),LaboratoriesStr[i][1],""));
         }
         
         return Laboratories;
-    }
-
-    public  static void PutIdInOrder()
-    {
-        List<string[]> Laboratories = RequestGenerator.SELECT("*", "Laboratories");
-        for (int i = 0; i < Laboratories.Count; i++)
-        {
-            if (Laboratories[i][0] != i.ToString())
-            {
-                UpdateLaboratoryId(Convert.ToInt32(Laboratories[i][0]), i+1);
-            }
-        }
-        
     }
 }
 

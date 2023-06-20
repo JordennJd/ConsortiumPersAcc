@@ -40,14 +40,11 @@ const Main = () => {
                 setLaboratory(responseJson)
             })
     },[])
-    console.log(LaboratoryList)
+    {console.log(LaboratoryList)}
     return (
         <main className={style.mainContent} style={mainStyle}>
-            {LaboratoryList.map((laboratory) =>( 
-                <Laboratory id={laboratory.id} nameLaboratory={laboratory.name} sponsors={[{name:'megafon'},
-                    {name:'yandex'},
-                    {name:'gazprom'},
-                    {name:'universitynti'}]}/>
+            {LaboratoryList.map((laboratory) =>(
+                <Laboratory id={laboratory.place} nameLaboratory={laboratory.name} sponsors={laboratory.sponsors.split('&')}/>
                 ))}
            
         {/*
@@ -56,6 +53,7 @@ const Main = () => {
         элемент
             линия между элементами-лаборатории
         */}
+            
         </main>
     );
 }
