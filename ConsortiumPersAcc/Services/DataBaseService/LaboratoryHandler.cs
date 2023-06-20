@@ -5,7 +5,7 @@ internal sealed class LaboratoryHandler
 {
     public static void AddLaboratory(Laboratory Laboratory)
     {
-        RequestGenerator.INSERT(GetStringForINSERT(Laboratory), "users(id, name, role)");
+        RequestGenerator.INSERT(GetStringForINSERT(Laboratory), "users(id, name, sponsorsId)");
     }
 
     public static void DeleteLaboratory(Laboratory Laboratory)
@@ -48,7 +48,7 @@ internal sealed class LaboratoryHandler
         return Laboratories;
     }
 
-    public static void PutIdInOrder()
+    public  static void PutIdInOrder()
     {
         List<string[]> Laboratories = RequestGenerator.SELECT("*", "Laboratories");
         for (int i = 0; i < Laboratories.Count; i++)
