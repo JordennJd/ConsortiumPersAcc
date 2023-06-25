@@ -1,0 +1,11 @@
+.socialNetwork {
+    width: 30%;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.socialNetwork__img {
+    height: 50px;
+    padding: 0 1%;
+}

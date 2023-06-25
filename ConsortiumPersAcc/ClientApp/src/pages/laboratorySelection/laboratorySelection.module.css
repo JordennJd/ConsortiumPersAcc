@@ -7,8 +7,7 @@
 body::-webkit-scrollbar {
   overflow-y: scroll;
   background-color: #e95083;
-  width: 1em;
-  height: 1em;
+  width: 0.7em;
 }
 
 body::-webkit-scrollbar-track {

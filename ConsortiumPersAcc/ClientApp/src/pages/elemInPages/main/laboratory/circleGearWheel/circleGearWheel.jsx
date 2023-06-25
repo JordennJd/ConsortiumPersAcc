@@ -4,7 +4,7 @@ import style from './circleGearWheel.module.css';
 const CircleGearWheel = (props) => {
     return (
         <a href='#' className={style.circleGearWheel}>
-            <img src={image} className={style.circleGearWheel__image}></img>
+            <img src={image} className={style.circleGearWheel__image + " ref" + props.id}></img>
             <p>{props.nameLaboratory}</p>
         </a>
     );

@@ -1,3 +1,4 @@
+import Footer from '../elemInPages/footer/footer';
 import Header from '../elemInPages/header/header';
 import Main from '../elemInPages/main/main';
 import MainTitle from '../elemInPages/mainTitle/mainTitle';
@@ -10,6 +11,7 @@ const LaboratorySelection = () => {
             <Header />
             <MainTitle />
             <Main />
+            <Footer />
         </div>
     );
 }
