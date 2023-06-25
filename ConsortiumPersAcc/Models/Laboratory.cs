@@ -6,7 +6,6 @@ public class Laboratory
     public int id { get; set; }
     public string sponsors { get; set; }
     public string name { get; set; }
-
     public Laboratory(int place, int id, string name,string sponsors)
     {
         this.place = place;

@@ -1,59 +1,45 @@
 import Laboratory from './laboratory/laboratory';
 import style from './main.module.css';
-import {useEffect,useState} from "react";
-
-// const laboratoryList = [
-//     {
-//         id:'1', 
-//         name:'Лаборатория технологического предпринимательства', 
-//         sponsors:[
-//             {id:1, name:'MegafonLogo.svg'},
-//             {id:2, name:'YandexLogo.svg'},
-//             {id:3, name:'GazPromLogo.svg'},
-//             {id:4, name:'UniversityNTILogo.svg'},
-//             {id:5, name:'KirovskiiZavodLogo.svg'}
-//             ]
-//         },
-//     {id:'2', name:'Лаборатория интернета вещей', sponsors:[]},
-//     {id:'3', name:'Лаборатория робототехники', sponsors:[]},
-//     {id:'4', name:'Лаборатория беспилотных авиационных систем', sponsors:[]},
-//     {id:'5', name:'Лаборатория искусственного интеллекта', sponsors:[]},
-//     {id:'6', name:'Лаборатория кибербезопасности ГУАП-Infowatch', sponsors:[]}
-// ];
-
-
-
-
-
+import LeaderLine from "react-leader-line";
+import { useRef, useEffect, createRef,useState } from 'react';
 const Main = () => {
-    const mainStyle = {
-        display: 'grid',
-        gridTemplateColumns: '1fr 1fr 2fr 1fr 1fr',
-        gridTemplateRows: 'repeat(' + 2 + ', 1fr)',
-        rowGap: '2em'
-    };
     const [LaboratoryList, setLaboratory] = useState([])
-    useEffect(()=>{
+    window.addEventListener('load', () => {
         fetch("api/Laboratory/GetLabs")
-            .then(response=>{return response.json()})
+            .then(response => {
+                return response.json()
+            })
             .then(responseJson => {
                 setLaboratory(responseJson)
             })
-    },[])
-    {console.log(LaboratoryList)}
+    })
+    useEffect(()=>{
+        
+        const lineOptions = {
+            endPlug: "behind",
+            path: "straight",
+            color: "rgba(255, 255, 255, 0.5)"}
+            for (let i = 1; i < LaboratoryList.length; i++) {
+            new LeaderLine(document.getElementsByClassName("ref" + i)[0],
+                document.getElementsByClassName("ref" + (i+1))[0], lineOptions);
+
+        };
+    })
+
+        
+    const mainStyle = {
+        display: 'grid',
+        gridTemplateColumns: 'repeat(6, 1fr)',
+        gridTemplateRows: 'repeat(' + LaboratoryList.at(-1) + ', 100px 1fr) 100px',
+        alignItems: 'stretch',
+        justifyItems: 'stretch',
+    };
     return (
         <main className={style.mainContent} style={mainStyle}>
             {LaboratoryList.map((laboratory) =>(
-                <Laboratory id={laboratory.place} nameLaboratory={laboratory.name} sponsors={laboratory.sponsors.split('&')}/>
-                ))}
-           
-        {/*
-        элементы - лаборатории с props
-            будут передаваться координаты центра или типо того
-        элемент
-            линия между элементами-лаборатории
-        */}
-            
+                <Laboratory id={laboratory.place} ref={LaboratoryList.ref} nameLaboratory={laboratory.name} sponsors={laboratory.sponsors.split('&')}/>
+            ))}
+
         </main>
     );
 }

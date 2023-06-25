@@ -1,7 +1,10 @@
 .sponsors {
-
+    position: relative;
+    z-index : 2
 }
 
 .sponsors__img {
-    
+    z-index: 2;
+    position: absolute;
+
 }

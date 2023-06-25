@@ -5,41 +5,58 @@ import Sponsors from "./sponsors/sponsors";
 
 const Laboratory = (props) => {
     const Grid_column = (id) => {
-        console.log(id);
-        console.log(props.id);
-        console.log((id % 4 === 1 || id % 4 === 0) ? 2 : 5);
         return ((id % 4 === 1 || id % 4 === 0) ? 2 : 5);
     }
     const laboratoryStyle = {
         gridColumn: Grid_column(props.id),
-        gridRow: props.id
+        gridRow: props.id * 2
     }
-    //const rect = ref.current.getBoundingClientRect();
-    const [sponsorsStyle, getSponsorsStyle] = useState({
-        border: '1px blue solid',
-        display:'none'
+    const SponsorsPokazStyle = {
+        gridColumnStart: Grid_column(props.id) - 1,
+        gridColumnEnd: Grid_column(props.id) + 2,
+        gridRowStart: props.id * 2 - 1,
+        gridRowEnd: props.id * 2 + 2,
+        /*gridRow:  + "/" + ,*/
+        /*border: '1px #fff solid',*/
+        marging: "20px"
+    }
+    const [sponsorsStyle, setSponsorsStyle] = useState({
+        opacity: 0
     });
-    const fff = (e) => {
-        const parent = e.target.parentNode.getBoundingClientRect();
-        const element = e.target.getBoundingClientRect();
-
-        const x = element.left;
-        const y = element.top;
-
-        console.log(x, y);
-    };
+    const [center, setCenter] = useState();
 
     return (
-        <div className={style.laboratory} style={laboratoryStyle} onMouseOverCapture={() => getSponsorsStyle({display:'block'})} onMouseOutCapture={() => getSponsorsStyle({display:'none'})}>
-            <CircleGearWheel key={props.id} nameLaboratory={props.nameLaboratory} />
-            <Sponsors sponsors={props.sponsors} center={0} style={sponsorsStyle}/>
-            {/*
+        <>
+            <div className={style.laboratory}
+                id={props.id}
+                ref={props.ref}
+                style={laboratoryStyle}
+                onMouseEnter={(e) => {
+                    setSponsorsStyle({ opacity: 1 })
+                }}
+                onMouseLeave={() => { setSponsorsStyle({ opacity: 0 }) }}
+            >
+                <CircleGearWheel key={props.id} id={props.id} nameLaboratory={props.nameLaboratory}
+                    parent={center} sponsors={props.sponsors} style={sponsorsStyle}
+                />
+                <Sponsors parent={center} sponsors={props.sponsors} style={sponsorsStyle} />
+                {/*
             кружок
             спонсоры
-            открывающееся меню MegafonLogo.png
+            открывающееся меню
         */}
+            </div>
+            <div style={SponsorsPokazStyle}
+                onMouseEnter={(e) => {
+                    setSponsorsStyle({ opacity: 1 })
+                    e.target.getBoundingClientRect();
+                    setCenter(e.target.getBoundingClientRect());
+                }}
+                onMouseLeave={() => { setSponsorsStyle({ opacity: 0 }) }
+                }>
 
-        </div>
+            </div>
+        </>
     );
 }
 
