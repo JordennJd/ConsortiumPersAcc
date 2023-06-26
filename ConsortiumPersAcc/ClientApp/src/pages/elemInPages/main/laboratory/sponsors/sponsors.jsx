@@ -32,7 +32,7 @@ const Image = (props) => {
         const radius = 100;
 
         const angle = props.id * arc + 9 * Math.PI / 10;
-        const x = radius * Math.cos(angle) + props.parent.width/10 + "px";//
+        const x = radius * Math.cos(angle) + props.parent.width/8.5 + "px";//
         const y = radius * Math.sin(angle) - props.parent.height/1.55 + "px";//
         const sponsorsStyle = {
             position: "absolute",

@@ -25,7 +25,7 @@ const Main = () => {
 
         };
     })
-
+    console.log(LaboratoryList)
         
     const mainStyle = {
         display: 'grid',
