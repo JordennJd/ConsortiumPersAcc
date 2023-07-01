@@ -1,0 +1,9 @@
+.footerLogo {
+    background:linear-gradient(180deg, #1546FA 0%, #F72D78 100%);
+    min-height: 200px;
+    padding: 1em;
+}
+
+.footerLogo__img {
+    margin: 1em;
+}

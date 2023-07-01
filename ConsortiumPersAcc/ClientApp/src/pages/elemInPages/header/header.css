@@ -1,5 +1,9 @@
-.header {
+.header_normal {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.header_withBackground {
+    background: linear-gradient(270deg, #E72B70 0%, #F92D77 0.01%, #1447FB 100%);
 }

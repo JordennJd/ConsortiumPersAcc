@@ -1,0 +1,10 @@
+.nameLab {
+    width: 33%;
+    text-align: center;
+    margin: 0 33%;
+    min-height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+}
