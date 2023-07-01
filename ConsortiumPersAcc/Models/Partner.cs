@@ -1,6 +1,6 @@
 ﻿namespace ConsortiumPersAcc.Models;
 
-public class Sponsor
+public class Partner
 {
     public int id { get; set; }
     public string name { get; set; }

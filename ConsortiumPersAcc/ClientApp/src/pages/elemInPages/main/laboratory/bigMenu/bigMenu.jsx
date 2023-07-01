@@ -23,7 +23,6 @@ const BigMenu = (props) => {
         onClick={props.click}
         >
             <h3>{props.nameLaboratory}</h3>
-            {console.log(props)}
             {/*
                 название
                 партнёры

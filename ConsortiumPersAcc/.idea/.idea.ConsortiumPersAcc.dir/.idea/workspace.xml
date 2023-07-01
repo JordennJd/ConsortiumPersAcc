@@ -8,7 +8,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2148c947-0c54-44cf-90d4-d4fb70ee957a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Services/DataBaseService/Context.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/laboratory/bigMenu/bigMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/laboratory/bigMenu/bigMenu.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsortiumPersAcc.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsortiumPersAcc.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/LaboratoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/LaboratoryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Laboratory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Laboratory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/Sponsor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Models/Sponsor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/DataBaseService/LaboratoryHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/DataBaseService/RequestGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Services/DataBaseService/SponsorsHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.runtimeconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/ConsortiumPersAcc.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ConsortiumPersAcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ConsortiumPersAcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +131,7 @@
       <workItem from="1688244175278" duration="1918000" />
       <workItem from="1688246117012" duration="35000" />
       <workItem from="1688246269674" duration="20000" />
+      <workItem from="1688247867461" duration="2270000" />
     </task>
     <servers />
   </component>

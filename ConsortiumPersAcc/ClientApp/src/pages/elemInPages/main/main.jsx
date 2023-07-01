@@ -1,7 +1,8 @@
 import Laboratory from './laboratory/laboratory';
 import style from './main.module.css';
 import LeaderLine from "react-leader-line";
-import { useRef, useEffect, createRef } from 'react';
+import { useRef, useEffect, createRef,useState } from 'react';
+
 import Laboratory_copy from './laboratory/laboratory_copy';
 
 const laboratoryList = [
@@ -107,14 +108,24 @@ const mainStyle = {
 
 
 const Main = () => {
-    
+    const [LaboratoryList, setLaboratory] = useState([])
+    window.addEventListener('load', () => {
+        fetch("api/Laboratory/GetLabs")
+            .then(response => {
+                return response.json()
+            })
+            .then(responseJson => {
+                setLaboratory(responseJson)
+            })
+    })
+    console.log(LaboratoryList)
     setTimeout(() => {
         const lineOptions = {
             endPlug: "behind",
             path: "straight",
             color: "rgba(255, 255, 255, 0.5)"
         };
-        for (let i = 1; i < laboratoryList.length; i++) {
+        for (let i = 1; i < LaboratoryList.length; i++) {
             new LeaderLine(document.getElementsByClassName("ref" + i)[0], document.getElementsByClassName("ref" + (i+1))[0], lineOptions);
         }
     }, 50);
@@ -122,7 +133,7 @@ const Main = () => {
     let i = 1
     return (
         <main className={style.mainContent} style={mainStyle}>
-            {laboratoryList.map(laboratory =>
+            {LaboratoryList.map(laboratory =>
                 <Laboratory
                     id={laboratory.id}
                     ref={laboratoryList.ref}
