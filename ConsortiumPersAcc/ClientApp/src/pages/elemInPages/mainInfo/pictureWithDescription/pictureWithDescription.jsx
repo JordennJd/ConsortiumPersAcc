@@ -7,12 +7,14 @@ const PictureWithDescription = (props) => {
     }
     const divPictureStyle = {
         gridColumn: Grid_column_picture(props.id),
-        gridRow: props.id
+        gridRow: props.id,
+        backgroundColor:"rgba(248, 249, 251, 1)"
     }
     const divDescriptionStyle = {
         gridColumn: Grid_column_description(props.id),
         gridRow: props.id,
-        padding: "3em 7em"
+        padding: "3em 7em",
+        backgroundColor:"rgba(248, 249, 251, 1)"
     }
     const PictureStyle = {
         width: "100%"

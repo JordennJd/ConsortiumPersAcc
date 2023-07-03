@@ -6,7 +6,8 @@ const OtherInfo = (props) => {
         display: "flex",
         flexDirection: "column",
         alignContent: "space-between",
-        alignSelf: "center"
+        alignSelf: "center",
+        backgroundColor: "#fff"
     }
     const spanStyle = {
         fontFamily: "Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif",
