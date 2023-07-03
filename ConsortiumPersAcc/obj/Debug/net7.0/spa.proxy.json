@@ -2,7 +2,7 @@
 "SpaProxyServer": {
 "ServerUrl": "https://localhost:44431",
 "LaunchCommand": "npm start",
-"WorkingDirectory": "/Users/danilalatyrev/Desktop/ForProjects/ConsortiumPersAcc/ConsortiumPersAcc/ClientApp/",
+"WorkingDirectory": "C:\\Users\\zenag\\projectGarage\\ConsortiumPersAcc\\ConsortiumPersAcc\\ClientApp\\",
 "MaxTimeoutInSeconds": "120"
 }
 }
