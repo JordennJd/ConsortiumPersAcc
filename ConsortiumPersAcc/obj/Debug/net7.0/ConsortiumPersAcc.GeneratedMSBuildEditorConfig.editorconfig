@@ -9,17 +9,17 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ConsortiumPersAcc
 build_property.RootNamespace = ConsortiumPersAcc
-build_property.ProjectDir = C:\Users\zenag\projectGarage\ConsortiumPersAcc\ConsortiumPersAcc\
+build_property.ProjectDir = /Users/danilalatyrev/Desktop/ForProjects/ConsortiumPersAcc/ConsortiumPersAcc/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\zenag\projectGarage\ConsortiumPersAcc\ConsortiumPersAcc
+build_property.MSBuildProjectDirectory = /Users/danilalatyrev/Desktop/ForProjects/ConsortiumPersAcc/ConsortiumPersAcc
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/zenag/projectGarage/ConsortiumPersAcc/ConsortiumPersAcc/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/danilalatyrev/Desktop/ForProjects/ConsortiumPersAcc/ConsortiumPersAcc/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/zenag/projectGarage/ConsortiumPersAcc/ConsortiumPersAcc/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/danilalatyrev/Desktop/ForProjects/ConsortiumPersAcc/ConsortiumPersAcc/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

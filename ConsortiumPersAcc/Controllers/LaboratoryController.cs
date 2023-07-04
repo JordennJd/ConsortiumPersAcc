@@ -38,24 +38,29 @@ public class LaboratoryController : ControllerBase
         Laboratory lab3 = new Laboratory() { name = "lab3", id = 3, place = 3, Sponsors = spons3 };
         Laboratory lab4 = new Laboratory() { name = "lab4", id = 4, place = 4, Sponsors = spons4 };
 
-        Laboratories.Add(lab1);
-        Laboratories.Add(lab2);
-        Laboratories.Add(lab3);
-        Laboratories.Add(lab4);
+        // Laboratories.Add(lab1);
+        // Laboratories.Add(lab2);
+        // Laboratories.Add(lab3);
+        // Laboratories.Add(lab4);
 
 
-        // using (var context = new Context())
-        // {
-        //     int place = 1;
+        using (var context = new Context())
+        {
+            int place = 1;
+            context.Laboratories.Add(lab1);
+            context.Laboratories.Add(lab2);
+            context.Laboratories.Add(lab3);
+            context.Laboratories.Add(lab4);
+            context.SaveChanges();
 
-        //     foreach (var lab in context.Laboratories.Include("Sponsors"))
-        //     {
-        //         lab.place = place; 
-        //         Laboratories.Add(lab);
-        //         place++;
+            foreach (var lab in context.Laboratories.Include("Sponsors"))
+            {
+                lab.place = place; 
+                Laboratories.Add(lab);
+                place++;
 
-        //     }
-        // }
+            }
+        }
         return StatusCode(StatusCodes.Status200OK, Laboratories);
     }
 
