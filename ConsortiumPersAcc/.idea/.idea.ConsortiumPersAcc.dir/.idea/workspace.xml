@@ -8,6 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2148c947-0c54-44cf-90d4-d4fb70ee957a" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/Services/DataBaseService/Context.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/laboratory/bigMenu/bigMenu.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/laboratory/bigMenu/bigMenu.jsx" afterDir="false" />
@@ -30,15 +31,26 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.AssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.csproj.FileListAbsolute.txt" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/laboratory/dsad.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsortiumPersAcc.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/pages/elemInPages/main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientApp/src/pages/laboratorySelection/laboratorySelection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ClientApp/src/pages/laboratorySelection/laboratorySelection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/ConsortiumPersAcc.pdb" afterDir="false" />
+>>>>>>> Stashed changes
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ConsortiumPersAcc.pdb" afterDir="false" />
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/ConsortiumPersAcc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ConsortiumPersAcc.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/ConsortiumPersAcc.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+=======
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +144,11 @@
       <workItem from="1688246117012" duration="35000" />
       <workItem from="1688246269674" duration="20000" />
       <workItem from="1688247867461" duration="2270000" />
+<<<<<<< Updated upstream
+=======
+      <workItem from="1688251812944" duration="8465000" />
+      <workItem from="1688486044578" duration="1040000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
