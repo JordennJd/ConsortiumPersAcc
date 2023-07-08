@@ -36,9 +36,6 @@ const Laboratory = (props) => {
             <div className={style.laboratory}
                 id={props.id}
                 ref={props.ref}
-                 onClick={() => {
-                     window.location.reload()
-                 }}
                 style={laboratoryStyle} 
                 onMouseEnter={(e) => {
                     setSponsorsStyle({ opacity: 1 })

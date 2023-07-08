@@ -6,7 +6,7 @@ const Header = (props) => {
     return (
         <header className={props.style}>
             <Header__logo />
-            <Hedaer__navigation />
+            <Hedaer__navigation name={props.name} setName={props.setName}/>
         </header>
     );
 }
